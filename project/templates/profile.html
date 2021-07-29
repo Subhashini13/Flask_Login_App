@@ -1,0 +1,17 @@
+<!-- templates/profile.html 
+This is our main Profile Page.
+This page will only be opened after signup and logging in-->
+
+<style>
+   title{
+    margin-top: 400px;
+  }
+</style>
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="text-center"style="font-family:Aclonica, sans-serif; font-size:45px; color:rgb(57,28,95);background-position:center;background-size:cover;">
+  Welcome, {{ name }} to the main Profile Page!
+  
+</h1>
+{% endblock %}
